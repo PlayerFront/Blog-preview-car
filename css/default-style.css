@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('../assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 300 900;
+}
+@font-face {
+    font-family: 'Figtree';
+    src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: 300 900;
+    font-style: normal;
+}
+
+/* static fonts */
+@font-face {
+    font-family: 'Figtree';
+    src: url('../assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Figtree';
+    src: url('../assets/fonts/static/Figtree-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.text-preset-1 {
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-extrabold);
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-base);
+    letter-spacing: 0;
+}
+
+.text-preset-2 {
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-base);
+    letter-spacing: 0;
+}
+
+.text-preset-3 {
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-base);
+    letter-spacing: 0;
+}
+
+.text-preset-3-bold {
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-extrabold);
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-base);
+    letter-spacing: 0;
+}

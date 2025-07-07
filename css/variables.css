@@ -1,0 +1,16 @@
+:root {
+    /* colors */
+    --yellow-color: #F4D04E;
+    --gray-950: #111111;
+    --gray-500: #6B6B6B;
+    --white-color:#FFFFFF;
+
+    /*fonts */
+    --font-family-primary: 'Figtree', sans-serif;
+    --font-size-xl:24px;
+    --font-size-lg:16px;
+    --font-size-md:14px;
+    --line-height-base:150%;
+    --font-weight-medium: 500;
+    --font-weight-extrabold: 800;
+}
